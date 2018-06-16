@@ -31,6 +31,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
+//noch nicht gelöst wegen mitte aber idee mit counter
+
 public class Problem33 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
