@@ -1,5 +1,26 @@
 package PStA;
 
+/*
+
+Scheckheft
+
+Schreiben Sie ein Programm, dass zeilenweise eingelesene Dezimalzahlen jeweils als Ganzzahl gefolgt von einem "gekürztem" Bruch ausgibt. Hinweis: Berücksichtigen Sie sowohl , als auch . als Punktuation.
+
+Beispiele:
+
+Eingabe:
+
+2.95
+3,4
+1
+Ausgabe:
+
+2 19/20
+3 2/5
+1
+
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

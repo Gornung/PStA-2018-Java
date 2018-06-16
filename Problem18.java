@@ -1,5 +1,26 @@
 package PStA;
 
+/*
+
+Fast Römisch
+
+Schreiben Sie ein Programm, dass eine Buchstabenkombination durch Aufsummierung der Buchstabenwerte in eine Zahl umwandelt. Dabei ist A 1, B 10, C 100, usw. bis G 1000000 wert.
+
+Es werden nun zeilenweise Kombination beliebiger Länge der Buchstaben A-G eingegeben, für die jeweils die Dezimalzahl ausgegeben werden soll.
+
+Beispiele:
+
+Eingabe:
+
+CCBBBBA
+ABC
+Ausgabe:
+
+241
+111
+
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

@@ -1,5 +1,30 @@
 package PStA;
 
+/*
+
+OrderByValue
+
+Schreiben Sie ein Programm, welches eine Liste von Ganzzahlen absteigend sortiert.
+
+Beispiel:
+
+Eingabe:
+
+1
+2
+3
+4
+5
+Ausgabe:
+
+5
+4
+3
+2
+1
+
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

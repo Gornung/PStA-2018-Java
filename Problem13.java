@@ -1,5 +1,34 @@
 package PStA;
 
+/*
+
+Diamantendrucker
+
+Dieses Programm soll einen Diamanten, bestehend aus Sternen (*) ausgeben. Die Eingabe ist eine positive Zahl größer als zwei, welche die Anzahl der Sternsymbole auf der Mittellinie angibt. Die Reihen darüber und darunter sollen jeweils immer zwei Sterne weniger besitzen als die Mittellinie.
+
+Beispiel:
+
+Eingabe:
+
+5
+Ausgabe:
+
+  *
+ ***
+*****
+ ***
+  *
+Eingabe:
+
+4
+Ausgabe:
+
+ **
+****
+ **
+
+ */
+
 import java.util.Scanner;
 
 public class Problem13 {

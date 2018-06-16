@@ -1,5 +1,30 @@
 package PStA;
 
+/*
+
+Transponieren
+
+Schreiben Sie ein Programm, welches Text Zeile für Zeile einliest. Betrachtet man nun die Wörter als Spalte, so kann man den Text transponieren, also die Wörter der Zeile i nun jeweils in der Spalte i ausgeben. Spalten in denen weniger Wörter wären als in anderen werden mit - aufgefüllt.
+
+Ein Beispiel erklärt das Gewünschte.
+
+Beispiel
+
+Eingabe
+
+Mary had a little lamb.
+Peter paid a pretty penny.
+Java sucks.
+Ausgabe
+
+Mary Peter Java
+had paid sucks.
+a a -
+little pretty -
+lamb. penny. -
+
+ */
+
 import java.util.*;
 
 public class Problem35 {

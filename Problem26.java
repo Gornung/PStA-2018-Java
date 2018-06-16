@@ -1,5 +1,26 @@
 package PStA;
 
+/*
+
+Zahlensysteme
+
+Schreiben Sie ein Programm, zeilenweise Zahlen von einem Zahlensystem in ein anderes umrechnet. Jede Zeile besteht aus drei Werten: die Zahl, das Quellzahlensystem und das Zielzahlensystem. Es sollen die Systeme zur Basis 2 (binär) bis einschließlich 16 (hexadezimal) unterstützt werden; verwenden Sie dazu die Zahlen 0...9 sowie die Buchstaben a...f.
+
+Beispiel
+
+Eingabe
+
+beef 16 10
+123 10 16
+10 10 8
+Ausgabe
+
+48879
+7b
+12
+
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

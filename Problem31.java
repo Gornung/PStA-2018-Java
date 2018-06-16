@@ -1,5 +1,23 @@
 package PStA;
 
+/*
+
+Prim-a
+
+Es soll berechnet werden, wie prim drei Zahlen zueinander sind. Dazu lesen Sie jeweils zeilenweise drei Zahlen ein, und geben Sie aus wie viele der daraus resultierenden drei Zahlenpaare gemeinsame Teiler haben.
+
+Beispiel
+
+Eingabe
+
+5 7 10
+Ausgabe
+
+1
+Da 5 und 10 den gemeinsamen Teiler 5 haben.
+
+ */
+
 import java.io.EOFException;
 import java.util.*;
 

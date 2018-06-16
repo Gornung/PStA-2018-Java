@@ -1,4 +1,22 @@
 package PStA;
+/*
+
+Binary Check
+
+Schreiben Sie ein Programm, das überprüft, ob zeilenweise eingegebene Binärzahlen wirklich dem Binärformat entsprechen. Führende Nullen, also z.B. 0101 sind nicht erlaubt.
+
+Beispiele:
+
+Eingabe:
+
+11001
+9876
+Ausgabe:
+
+true
+false
+
+ */
 
 import java.util.LinkedList;
 import java.util.List;

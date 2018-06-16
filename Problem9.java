@@ -1,5 +1,33 @@
 package PStA;
 
+/*
+
+Gemeinsame Elemente in Arrays
+
+Schreiben Sie ein Programm, welches abzählt wie viele Elemente in beiden Zeilen zu finden sind.
+
+Beispiele:
+
+Eingabe:
+
+1 4 Hans Peter 3
+2 Peter 1
+Ausgabe:
+
+2
+Da "Peter" und 1 in beiden Zeilen zu finden sind.
+
+Eingabe:
+
+Peter, der schreckliche.
+Peter Pan
+Ausgabe:
+
+0
+Da Peter, nicht gleich Peter ist.
+
+ */
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;

@@ -1,5 +1,26 @@
 package PStA;
 
+/*
+
+Fibonacci
+
+Schreiben Sie ein Programm, welches eine bestimmte Anzahl Fibonacci-Zahlen berechnet und ausgibt.
+
+Beispiele
+
+Eingabe:
+
+2
+4
+6
+Ausgabe:
+
+0 1
+0 1 1 2
+0 1 1 2 3 5
+
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

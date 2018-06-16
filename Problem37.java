@@ -1,5 +1,33 @@
 package PStA;
 
+/*
+
+Zensiert
+
+Sie kennen bestimmt das Mathespiel aus der Grundschule, 1-2-hop: Ein Spieler beginnt mit 1, und nachfolgende sagen entweder die nächstgrößere Zahl, oder aber hop, wenn diese durch 3 teilbar ist oder eine 3 enthält. Zum Beispiel: 1-2-hop-4-5-hop-7-8-hop-...
+
+Schreiben Sie ein Programm, den Teiler sowie das Spielende vorgibt, und die entsprechende Folge zeilenweise ausgibt. Der Teiler ist immer größer als 0 und kleiner als 10.
+
+Beispiel
+
+Eingabe
+
+3 10
+Ausgabe
+
+1
+2
+hop
+4
+5
+hop
+7
+8
+hop
+10
+
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

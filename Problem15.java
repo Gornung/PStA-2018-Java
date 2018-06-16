@@ -1,5 +1,23 @@
 package PStA;
 
+/*
+
+Duplikatentferner
+
+Schreiben Sie ein Programm, in jeder Zeile jeweils Duplikate entfernt. Die ursprüngliche Reihenfolge der Elemente soll dabei erhalten werden, d.h. es werden nur nachfolgende Duplikate entfernt.
+
+Beispiele:
+
+Eingabe:
+
+2 2 2 3 3 3 4
+4 1 5 2 3 5 2
+Ausgabe:
+
+2 3 4
+4 1 5 2 3
+
+ */
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;

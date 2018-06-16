@@ -1,5 +1,35 @@
 package PStA;
 
+/*
+
+Berechnete Determinanten
+
+Schreiben Sie ein Programm, welches die Determinanten von 2x2 und 3x3 Matrizen berechnet
+
+Beispiele:
+
+1. 2x2
+
+Eingabe:
+
+2 2
+2 2
+Ausgabe:
+
+0
+2. 3x3
+
+Eingabe:
+
+2 5 2
+3 -3 1
+1 4 -4
+Ausgabe:
+
+111
+
+ */
+
 import java.util.*;
 
 public class Problem12 {

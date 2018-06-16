@@ -1,5 +1,22 @@
 package PStA;
 
+/*
+
+Nummern umdrehen
+
+Schreiben Sie ein Programm, welches zeilenweise Ganzzahlen einliest und rückwärts wieder ausgibt, also die Dezimalstellen in umgekehrter Reihenfolge.
+
+Beispiel:
+
+Eingabe
+
+8954
+Ausgabe
+
+4598
+
+ */
+
 import java.util.*;
 
 public class Problem25 {

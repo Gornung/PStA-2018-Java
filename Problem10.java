@@ -1,5 +1,22 @@
 package PStA;
 
+/*
+
+Das Damenproblem
+
+Beim N-Damen-Problem im Schach sollen N Damen so aufgestellt werden, dass keine eine andere Damen schlagen kann. Ein Schachfeld besteht entsprechend aus einer N x N Matrix und eine Dame kann sich in jede Richtung, also vertikal, horizontal und diagonal bewegen. Jede Dame soll dabei in einer Reihe stehen und sie dürfen dabei keine diagonale Linie bilden. Die Eingabe gibt jeweils die Position der Dame in der entsprechenden Reihe ein. Im Beispiel steht die Dame in der 1. Reihe auf dem 3. Quadrat von links, die der 2. Reihe auf dem 5. Quadrat von links, usw. Kann keine Dame eine andere schlagen, so soll true ausgegeben werden, andernfalls false.
+
+Beispiele:
+
+Eingabe:
+
+3 5 2 8 1 7 4 6
+Ausgabe:
+
+true
+
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

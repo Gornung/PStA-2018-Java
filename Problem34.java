@@ -1,5 +1,28 @@
 package PStA;
 
+/*
+
+Wie die Zeit vergeht
+
+Es werden Zeilen mit je zwei Zeiten einer 24-Uhr, im Format hh:mm:ss eingegeben. Geben Sie aus, wie viele Stunden, Minuten und Sekunden dazwischen liegen, ebenfalls im Format hh:mm:ss
+
+Beispiele:
+
+Eingabe:
+
+10:03:43 15:00:58
+13:00:00 14:00:00
+00:00:00 12:05:00
+12:05:00 00:00:00
+Ausgabe:
+
+04:57:15
+01:00:00
+12:05:00
+11:55:00
+
+ */
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;

@@ -1,5 +1,28 @@
 package PStA;
 
+/*
+
+Noch alle Klammern im Schrank?
+
+Überprüfen Sie für jede Zeile der Eingabe, ob die Anzahl der Klammern korrekt ist, d.h. dass alle öffnenden Klammern auch geschlossen werden, und geben Sie entsprechend true oder false aus.
+
+Beispiele
+
+Eingabe
+
+(3+(7*2)-6)
+)(
+((hans dampf))
+(hans)(peter))
+Ausgabe
+
+true
+false
+true
+false
+
+ */
+
 import java.io.EOFException;
 import java.util.LinkedList;
 import java.util.List;

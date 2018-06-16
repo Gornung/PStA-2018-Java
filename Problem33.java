@@ -1,5 +1,32 @@
 package PStA;
 
+/*
+
+Buchstabieren
+
+Schreiben Sie ein Programm, das Zeilen mit jeweils zwei Wörtern einliest, die dann verglichen werden sollen. Geben Sie jeweils aus, ob diese gleich sind (richtig) oder sich in höchstens einem Buchstaben unterscheiden (ok), ansonsten falsch.
+
+Beispiele
+
+Eingabe
+
+Sample Simple
+Sample simple
+Sample Sample
+Haus Hans
+Hauswein Hanswurscht
+wein ein
+Ausgabe:
+
+ok
+ok
+richtig
+ok
+falsch
+ok
+
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

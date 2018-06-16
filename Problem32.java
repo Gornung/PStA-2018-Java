@@ -1,5 +1,33 @@
 package PStA;
 
+/*
+
+Pim-a, die zweite!
+
+Schreiben Sie ein Programm, welches überprüft, ob zeilenweise eingegebene Zahlen auch wirkich prim sind.
+
+Beispiele
+
+Eingabe
+
+2
+5
+7
+9
+10
+12
+13
+Ausgabe
+
+true
+true
+true
+false
+false
+false
+true
+
+ */
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

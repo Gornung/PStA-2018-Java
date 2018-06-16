@@ -1,5 +1,37 @@
 package PStA;
 
+/*
+
+Störe meine Kreise nicht
+
+Schreiben Sie ein Programm, das testet ob sich zwei Kreise überschneiden. Als Input dienen die Koordinaten der beiden Kreise sowie ihr Radius. Anschließend soll ausgegeben werden, ob sich die beiden Kreise schneiden, nicht schneiden, oder berühren. Alle Eingaben sind Ganzzahlen, jede Zeile beschreibt einen Kreis als X und Y Koordinate sowie Radius. Bedenken Sie, dass ein Kreis auch komplett in einem anderen eingeschlossen sein kann, und dass Koordinaten negativ sein können.
+
+Beispiele:
+
+Eingabe:
+
+10 10 3
+10 6 1
+Ausgabe:
+
+Die Kreise sind tangierend.
+Eingabe:
+
+0 0 1
+0 1 1
+Ausgabe:
+
+Die Kreise schneiden sich.
+Eingabe:
+
+1 2 3
+2 2 1
+Ausgabe:
+
+Die Kreise schneiden sich nicht.
+
+ */
+
 import java.util.Scanner;
 
 public class Problem8 {

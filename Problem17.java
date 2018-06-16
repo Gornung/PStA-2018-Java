@@ -1,5 +1,29 @@
 package PStA;
 
+/*
+
+Wortlängen
+
+Schreiben Sie ein Programm, dass eine beliebige Anzahl Zeilen einliest und abschließend ausgibt welche Wortlängen wie oft vorgekommen sind; hierbei sind Wörter mit neun oder mehr Buchstaben als gleich lang zu betrachten. Wenn die Anzahl von Wörtern mit einer bestimmten Länge 0 ist, wird sie nicht ausgegeben, Satzzeichen soll ignoriert werden.
+
+Beispiele:
+
+Eingabe:
+
+Hi Sam, how are you? I really wonder
+what this is all about: Schiffahrtskapitän
+Ausgabe:
+
+1 1
+2 2
+3 5
+4 2
+5 1
+6 2
+9 1
+
+ */
+
 import java.util.*;
 
 public class Problem17 {

@@ -1,5 +1,26 @@
 package PStA;
 
+/*
+
+Buchstabensuppe
+
+Eingelesen werden Zeilen. Die erste besteht aus einem Satz bzw. einer Zeichenkette. Die zweite gibt an welche Buchstaben aus dem 1. String man zählen möchte. Es wird unabhängig von Groß- und Kleinschreibung gezählt, Sonderzeichen (inklusive Leerzeichen) können ebenfalls abgezählt werden.
+
+Beispiele:
+
+Eingabe:
+
+All is quiet now, but wait!
+QAET
+Ausgabe:
+
+q 1
+a 2
+e 1
+t 3
+
+ */
+
 import java.util.Scanner;
 
 //WUHUUU first Try

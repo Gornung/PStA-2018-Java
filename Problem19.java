@@ -1,5 +1,26 @@
 package PStA;
 
+/*
+
+Buchstabendreieck
+
+Für einen eingegebenen Buchstaben soll das Alphabet ab dem Buchstaben A bis zu dem eingegebenen Buchstaben ausgegeben werden. Die Anzahl der Buchstaben pro Zeile entspricht der Zeilennummer. Ist die Anzahl der verbleibenden Buchstaben kleiner als die nötigen Buchstaben pro Reihe wird mit * aufgefüllt.
+
+Alle Buchstaben sind Großbuchstaben.
+
+Beispiele:
+
+Eingabe:
+
+D
+Ausgabe:
+
+A
+BC
+D**
+
+ */
+
 import java.util.*;
 
 public class Problem19 {

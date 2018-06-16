@@ -1,4 +1,30 @@
-import java.io.EOFException;
+package PStA;
+
+/*
+
+Die 2 größten Zahlen
+
+Schreiben Sie ein Programm, welches Zahlen einliest, und davon die zwei größten in aufsteigender Ordnung ausgibt.
+
+Es werden immer mindestens drei Zahlen eingegeben.
+
+Beispiele:
+
+Eingabe:
+
+5
+56
+5
+8
+21
+150
+Ausgabe:
+
+56
+150
+
+ */
+
 import java.util.*;
 
 public class Problem36 {

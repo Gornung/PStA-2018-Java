@@ -1,5 +1,39 @@
 package PStA;
 
+/*
+
+Caesar's Chiffre
+
+Schreiben Sie ein Programm, das eingegebenen Text in Caesars Chiffre übersetzt. Dabei werden die Buchstaben a bis z um eine feste Anzahl "verschoben". Ist der Schlüssel z.B. 2, so wird aus jedem a ein c, jedem b ein d usw. und zum Ende aus einem z wieder ein b (also zyklisch im Alphabet). Zum Entschlüsseln wird entsprechend ein negativer Wert angegeben, also z.B. -2 um aus g ein e zu machen. Beachten Sie die Groß- und Kleinschreibung.
+
+Die erste Zeile gibt eine Ganzzahl an, um wie viele Zeichen der Text der nachfolgenden Zeilen entsprechend verschoben werden soll.
+
+Beispiele:
+
+Eingabe
+
+0
+Peter Pan ist ein Held.
+Ausgabe
+
+Peter Pan ist ein Held.
+Eingabe
+
+2
+Peter Pan ist ein Held.
+Ausgabe
+
+Rgvgt Rcp kuv gkp Jgnf.
+Eingabe
+
+-2
+Jcpu Fcorh pkejv yktmnkej.
+Ausgabe
+
+Hans Dampf nicht wirklich.
+
+ */
+
 import java.util.*;
 
 public class Problem30 {
@@ -39,8 +73,7 @@ public class Problem30 {
             }
         }
 
-        String verschlüsselt = new String(buchstaben);
-        return verschlüsselt;
+        return new String(buchstaben);
     }
 
 

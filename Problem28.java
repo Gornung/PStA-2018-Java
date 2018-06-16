@@ -1,5 +1,35 @@
 package PStA;
 
+/*
+
+Verzerrte Welten
+
+Es sollen zeilenweise eingegebene Worte einmal horizontal und mehrere Male vertikal ausgegeben werden. Jeder horizontale Buchstabe soll die Position des selben Buchstabens in der Vertikalen annehmen. Zischen den einzelnen Wörtern soll eine Leerzeile eingefügt werden. Ein Beispiel hilft bei der Veranschaulichung:
+
+Beispiele
+
+Eingabe
+
+TEST
+Art
+Ausgabe
+
+   T
+  TE
+ TES
+TEST
+EST
+ST
+T
+
+  A
+ Ar
+Art
+rt
+t
+
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
